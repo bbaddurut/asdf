@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'mylover';
+  src: url('/asdf/font/love.ttf')format('truetype');
+}
+#a{
+font-family: 궁서;
+}
+.b{
+  font-family: 'Nanum Brush Script', cursive;
+}
+.b.c{
+  font-family: 'mylover';
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;/*줄 겹치지 않게 단선*/
+
+}
+th, td{
+  padding: 5px 15px;
+}
+#em{
+  font-size: 2em;
+  text-align: right;
+}
+#rem{
+  font-size: 2rem;
+}
+h1 { 
+  font-family: 바탕;  /* 글꼴 */
+  font-size: 3em;  /* 글자 크기 */
+} 
+.accent {
+  font-size:150%;  /* 글자 크기 */
+  font-weight: bold;  /* 글자 굵기 */ 
+}
+.italic{
+  font-style: italic;  /* 글자 스타일 */
+}
+div{
+  height: 150px;
+  background-color: aquamarine;
+  text-align: center;
+  line-height: 150px;
+}

@@ -1,0 +1,9 @@
+body{
+  background-image: url('/asdf/img/p.jpg');
+}
+p{
+  color: white ;
+  height: 800px;
+  background-image: url('https://sgallery.skku.edu/_attach/image/2018/11/iLVIZHPPtrauPqIjjbuN.jpg');
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,18 @@
+div.box{
+  width : 600px;
+  border:1px dotted black;
+  padding: 20px;
+}
+div{
+  width : 600px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.b3 table{
+  border: 1px dotted black;
+  border-collapse: collapse;
+}
+.b3 th,td{
+  border: 1px dotted black;
+  padding: 10px 20px;
+}

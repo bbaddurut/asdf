@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+}
+h6{
+  font-size: 24px;
+  text-decoration: underline;
+}
+.tit{
+  color: chocolate;
+}
+#myH6{
+  color: darkgray;
+}
+h3, h6, .tit, #myH6{
+  background-color: antiquewhite;
+}
+li{
+  list-style: none;
+}

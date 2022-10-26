@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="css/list.css">
+  <title>목록 만들기</title>
+</head>
+<body>
+  <h3>목록 만들기</h3>
+    <p>ol, ul, dl 태그들을 이용하여 리스트를 만듦</p>
+    <p style="color: red;">※ ol, ul 자식요소는 li태그만 가능</p>
+    <pre>
+    <ol>
+      &lt;li&gt;항목&lt;/li&gt;
+      &lt;li&gt;항목&lt;/li&gt;
+      &lt;li&gt;항목&lt;/li&gt;
+    </ol>
+    </pre>
+    <p>type은 종류설정(1,a,A,i,I),start는 시작위치 지정</p>
+    <ol type="1"start="3">
+      <li>항목</li>
+      <li>항목</li>
+      <li>항목</li>
+      <li>항목</li>
+    </ol>
+    <hr>
+    <ul style="color: blue;">
+      <li>항목
+        <ul style="color: black;">
+          <li>목항
+            <ul>
+              <li>항목항</li>
+              <li>항목항</li>
+              <li>항목항</li>
+              <li>항목항</li>
+            </ul>
+            
+          </li>
+          <li>목항</li>
+          <li>목항</li>
+          <li>목항</li>
+        </ul>
+      </li>
+      <li>항목</li>
+      <li>항목</li>
+      <li>항목</li>
+    </ul>
+    <hr>
+    <dl>
+      <dt>선물용 3kg</dt>
+      <dd>소과 12~16과</dd>
+      <dd>중과 10~12과</dd>
+    </dl>
+    <dl>
+      <dt>선물용 5kg</dt>
+      <dd>중과 15~19과</dd>
+    </dl>
+</body>
+</html>

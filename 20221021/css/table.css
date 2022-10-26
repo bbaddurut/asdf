@@ -1,0 +1,14 @@
+/* table>tbody>tr>th|td */
+/* 테이블은 tbody 자동삽입되므로 선택할때 주의해야함 */
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;/*줄 겹치지 않게 단선*/
+  padding: 5px 15px;
+  text-align: center;
+}
+thead, tfoot{
+  border: 1px solid black;
+  background-color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}

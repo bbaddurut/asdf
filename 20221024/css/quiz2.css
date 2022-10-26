@@ -1,0 +1,22 @@
+.q1>h1{
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+.q1>p{
+  color: purple;
+  font-weight: bold;
+}
+.q2>#container{
+  width: 600px;
+  margin: 20px auto;
+}
+.q2>h1{
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+}
+.a{
+  font-weight: bold;
+  color: red;
+}

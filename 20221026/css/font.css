@@ -1,0 +1,32 @@
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;/*줄 겹치지 않게 단선*/
+  padding: 5px 15px;
+  text-align: center;
+}
+.vw{
+font-size: 10vw; /*viewport 넓이의 10%*/
+}
+.vh{
+font-size: 10vh; /*viewport 높이의 10%*/
+}
+.wave{
+  text-decoration: wavy;
+  text-decoration-color: purple;
+  text-decoration-thickness: 2px;
+  text-decoration-line: underline;
+}
+#demotext {
+  color: transparent;
+  background: #FFFFFF;
+  font-size: 30px;
+  text-shadow: -4px 4px rgba(179,179,179,.4), -3px 3px rgba(153,153,153,.2), -2px 2px rgba(179,179,179,.2), -1px 1px rgba(179,179,179,.2), 0px 0px rgba(128,128,128,.5), 1px -1px rgba(77,77,77,.6), 2px -2px rgba(77,77,77,.7), 3px -3px rgba(82,82,82,.8), 4px -4px rgba(77,77,77,.9), 5px -5px rgba(77,77,77,1);
+  }
+ul{
+  list-style: none;
+}
+ul li{
+  border: 1px solid black;
+  padding: 15px 32px 5px 5px; /*위 아래 오른쪽 왼쪽*/
+  margin-bottom: 5px;
+}

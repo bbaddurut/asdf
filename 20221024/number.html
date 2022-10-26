@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>number, range</title>
+</head>
+<body>
+  <form action="#">
+  <h3>Number</h3>
+  <ul>
+    <li><input type="checkbox">선물용 3kg<input type="number" max="5" min="0" value="2"name="num"> 개 (최대 5개)</li>
+    <li><input type="checkbox">선물용 5kg<input type="number" max="3" min="0" value="2" name="num"> 개 (최대 3개)</li>
+  </ul>
+  <hr>
+  <h3>Range</h3>
+  <ul>
+    <li><input type="checkbox">선물용 3kg<input type="range" max="5" min="0" value="2"name="ran"> 개 (최대 5개)<input type="text" readonly size="5" ></li>
+    <li><input type="checkbox">선물용 5kg<input type="range" max="3" min="0" value="2"
+      name="ran"> 개 (최대 3개)</li>
+  </ul>
+  <!-- 버튼의 value는 버튼의 문자 -->
+  <input type="submit " value="등록">
+  </form>
+  <script>
+    rng1.oninput = function() {
+      cont1.value =rng1.value;
+    };
+  </script>
+</body>
+</html>
